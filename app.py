@@ -30,8 +30,6 @@ min_sales, max_sales = st.sidebar.slider(
     "Vendas globais (mi)", sales_min, sales_max, (sales_min, sales_max)
 )
 
-st.sidebar.button("Limpar filtros")
-
 # Criar DataFrame filtrado
 df_filtrado = df.copy()
 
