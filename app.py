@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 # Carregar dataset
-df = pd.read_csv("datasets/vgsales.csv")
+df = pd.read_csv("vgsales.csv")
 
 # Limpeza de dados
 df["Year"] = pd.to_numeric(df["Year"], errors="coerce")
